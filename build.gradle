@@ -3,12 +3,18 @@ buildscript {
     repositories {
         google()
         jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+        maven { url "https://artifactory.appodeal.com/appodeal" }
+        maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.1.0"
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.android.tools:r8:2.1.67'
 
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10"
+        classpath 'com.google.gms:google-services:4.3.4'
     }
 }
 
@@ -16,6 +22,13 @@ allprojects {
     repositories {
         google()
         jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+        maven { url "https://artifactory.appodeal.com/appodeal" }
+        maven { url "https://jitpack.io" }
+        maven { url "https://maven.google.com" }
+        maven { url 'https://maven.fabric.io/public' }
     }
 }
 
