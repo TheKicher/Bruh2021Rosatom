@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="577dp">
+
+
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="16dp"
+            android:drawableStart="@drawable/ic_baseline_perm_identity"
+            android:drawablePadding="16dp"
+            android:ems="10"
+
+
+            android:hint="Введите Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:drawableStart="@drawable/ic_baseline_lock"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Введите пароль"
+            android:inputType="textPassword"
+            android:paddingStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#457B9D"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Зарегистрироваться"
+            android:textColor="@color/white"
+            app:cornerRadius="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#e9e9e9"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="Войти"
+            android:textColor="@color/colorAccent"
+            android:textSize="10sp"
+            app:cornerRadius="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
