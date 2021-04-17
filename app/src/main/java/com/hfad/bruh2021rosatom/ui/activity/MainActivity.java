@@ -16,6 +16,7 @@ import com.hfad.bruh2021rosatom.ui.fragment.more.MoreFragment;
 import com.hfad.bruh2021rosatom.ui.fragment.response.ResponsesFragment;
 import com.hfad.bruh2021rosatom.ui.fragment.resume.ResumeFragment;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;

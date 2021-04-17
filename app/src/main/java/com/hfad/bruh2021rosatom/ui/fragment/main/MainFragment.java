@@ -44,7 +44,7 @@ public class MainFragment extends BaseFragment {
 
         ArrayList<FragmentPage> list = new ArrayList<>();
 
-        list.add(new FragmentPage("Работа", new JobFragment(), FragmentPage.TYPE_JOB));
+        // list.add(new FragmentPage("Работа", new JobFragment(), FragmentPage.TYPE_JOB));
         list.add(new FragmentPage("Стажировка", new InternshipFragment(), FragmentPage.TYPE_INTERNSHIP));
 
         fragmentPages = list;

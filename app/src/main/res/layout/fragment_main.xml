@@ -25,7 +25,7 @@
             android:background="@drawable/round_shape"
             android:drawableLeft="@drawable/search"
             android:drawablePadding="8dp"
-            android:hint="Работа вашей мечты..."
+            android:hint="Найди свою стажировку."
             android:inputType="text"
             android:paddingStart="16dp"
             android:paddingTop="8dp"

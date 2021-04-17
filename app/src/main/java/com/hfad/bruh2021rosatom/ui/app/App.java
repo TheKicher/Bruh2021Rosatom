@@ -22,7 +22,7 @@ public class App extends Application {
                 .setLenient()
                 .create();
         retrofit = new Retrofit.Builder()
-//                .baseUrl("http://192.168.1.9:8000/api/")
+                .baseUrl("http://31.172.133.69:50800/api/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         api = retrofit.create(Api.class);

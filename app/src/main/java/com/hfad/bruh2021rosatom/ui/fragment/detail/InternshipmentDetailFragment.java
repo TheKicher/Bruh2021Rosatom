@@ -22,7 +22,6 @@ import com.hfad.bruh2021rosatom.ui.activity.MainActivity;
 import com.hfad.bruh2021rosatom.ui.app.App;
 import com.hfad.bruh2021rosatom.ui.fragment.base.BaseFragment;
 
-
 public class InternshipmentDetailFragment extends BaseFragment {
 
     private static ModelInternshipment model;
@@ -81,7 +80,7 @@ public class InternshipmentDetailFragment extends BaseFragment {
         button.setOnClickListener(view12 -> {
             ModelInternshipResponseRequest request = new ModelInternshipResponseRequest();
             request.setUser("api/users/1");
-            request.setInternship("api/interships/" + model.getId());
+            request.setInternship("api/internships/1" + model.getId());
 
             App.api.createInternshipResponse(request);
             view12.setVisibility(View.GONE);

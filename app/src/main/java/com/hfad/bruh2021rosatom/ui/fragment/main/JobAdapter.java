@@ -15,6 +15,7 @@ import com.hfad.bruh2021rosatom.R;
 import com.hfad.bruh2021rosatom.model.ModelJob;
 
 
+
 public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
 
     private Listener listener;
@@ -83,7 +84,7 @@ public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
             description.setText(item.getDescription());
             city.setText(item.getOrganization().getCity());
             company.setText(item.getOrganization().getName());
-            date.setText("22.09.2020");
+            date.setText("17.04.2021");
             if (item.getMinPayment() == 0 && item.getMaxPayment() == 0) {
                 dot.setVisibility(View.GONE);
                 price.setVisibility(View.GONE);
