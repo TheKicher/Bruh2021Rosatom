@@ -3,13 +3,17 @@
     package="com.hfad.bruh2021rosatom">
 
     <application
+        android:name=".ui.app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Bruh2021Rosatom">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme.Launcher">
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
