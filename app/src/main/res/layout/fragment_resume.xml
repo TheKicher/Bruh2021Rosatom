@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="24dp"
-                    android:text="Булахов Никита Романович"
+                    android:text="Чеботарев Кирилл"
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold"
