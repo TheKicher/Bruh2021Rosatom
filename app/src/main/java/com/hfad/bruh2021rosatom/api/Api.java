@@ -21,6 +21,8 @@ public interface Api {
     @GET("internships")
     Call<List<ModelInternshipment>> getInternshipments();
 
+//    @GET("users/1")
+//    Call<ModelResponseJob> getResponsesJob();
 
     @GET("users/1")
     Call<ModelResponseInternship> getResponseInternship();
@@ -28,6 +30,8 @@ public interface Api {
     @GET("users/1")
     Call<ModelResume> getResume();
 
+//    @POST("job_responses")
+//    Call<Object> createJobResponse(@Body ModelJobResponseRequest model);
 
     @POST("internship_responses")
     Call<Object> createInternshipResponse(@Body ModelInternshipResponseRequest model);

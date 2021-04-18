@@ -15,7 +15,6 @@ import com.hfad.bruh2021rosatom.R;
 import com.hfad.bruh2021rosatom.model.ModelJob;
 
 
-
 public class JobAdapter extends RecyclerView.Adapter<JobAdapter.JobViewHolder> {
 
     private Listener listener;

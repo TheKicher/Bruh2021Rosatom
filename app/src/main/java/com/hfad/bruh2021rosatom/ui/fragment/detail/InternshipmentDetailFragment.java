@@ -22,6 +22,7 @@ import com.hfad.bruh2021rosatom.ui.activity.MainActivity;
 import com.hfad.bruh2021rosatom.ui.app.App;
 import com.hfad.bruh2021rosatom.ui.fragment.base.BaseFragment;
 
+
 public class InternshipmentDetailFragment extends BaseFragment {
 
     private static ModelInternshipment model;

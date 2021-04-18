@@ -16,7 +16,6 @@ import com.hfad.bruh2021rosatom.ui.fragment.more.MoreFragment;
 import com.hfad.bruh2021rosatom.ui.fragment.response.ResponsesFragment;
 import com.hfad.bruh2021rosatom.ui.fragment.resume.ResumeFragment;
 
-
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
@@ -40,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new ResponsesFragment();
                     break;
                 case R.id.navigation_profile:
-                    fragment = new ResumeFragment();
-                    break;
+                   fragment = new ResumeFragment();
+                   break;
                 default:
                     fragment = new MainFragment();
             }

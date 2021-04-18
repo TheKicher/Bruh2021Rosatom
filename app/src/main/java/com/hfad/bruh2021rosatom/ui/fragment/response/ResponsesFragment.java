@@ -25,7 +25,7 @@ import com.hfad.bruh2021rosatom.ui.fragment.main.MainFragment;
 
 public class ResponsesFragment extends BaseFragment {
 
-    //private ResponsesAdapter adapter;
+    private ResponsesAdapter adapter;
     private RecyclerView recyclerView;
     private CardView loading;
 
@@ -44,7 +44,7 @@ public class ResponsesFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         ArrayList<MainFragment.FragmentPage> list = new ArrayList<>();
 
-        //  list.add(new MainFragment.FragmentPage("Работа", new ResponseJobFragment(), MainFragment.FragmentPage.TYPE_JOB));
+      //  list.add(new MainFragment.FragmentPage("Работа", new ResponseJobFragment(), MainFragment.FragmentPage.TYPE_JOB));
         list.add(new MainFragment.FragmentPage("Стажировка", new ResponseIntershipFragment(), MainFragment.FragmentPage.TYPE_INTERNSHIP));
 
         fragmentPages = list;
