@@ -53,7 +53,7 @@
             android:background="@android:color/white"
             android:gravity="bottom"
             android:paddingStart="5dp"
-            android:text="Гробовщик Артем"
+            android:text="Булахов Никита Романович"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold"

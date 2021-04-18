@@ -67,7 +67,7 @@ public class ResumeFragment extends BaseFragment {
                 loadingCardView.setVisibility(View.GONE);
                 resumeAdapter.setItems(response.body().getUserProfile().getJobExperienses());
 
-                surname.setText("Гробовщик Артем");
+                surname.setText("Булахов Никита Романович");
                 number.setText(response.body().getUserProfile().getPhone());
                 email.setText("grob@mail.ru");
                 telegram.setText(response.body().getUserProfile().getTelegram());
